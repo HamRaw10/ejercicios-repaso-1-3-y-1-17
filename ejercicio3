@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char * argv[]){
+	int numero;
+	printf("Ingrese su numero: %i", numero);
+	scanf("%i", &numero);
+	
+	printf("\n");
+	
+	if(numero % 2 == 0){
+		printf("Su numero es par");
+	}
+	else{
+	    printf("Su numero es impar");
+	}
+ return 0;
+}
